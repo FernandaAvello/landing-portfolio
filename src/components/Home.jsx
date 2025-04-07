@@ -88,7 +88,7 @@ const Home = () => {
         {/* Columna de imagen */}
         <Col xs={24} md={12} style={{ textAlign: "center" }}>
           <img
-            src="./../public/images/profile1.JPG"
+            src="./images/profile1.JPG"
             alt="Foto de Fernanda Avello"
             style={{
               width: "100%",
