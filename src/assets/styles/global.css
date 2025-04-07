@@ -1,0 +1,53 @@
+/* Definición de la paleta de colores */
+:root {
+  --color-primary: #17153B; /* Color principal */
+  --color-secondary: #2E236C; /* Color secundario */
+  --color-accent: #C68EFD; /* Color de acento */
+  --color-light: #fff; /* Color claro */
+}
+
+/* Estilos globales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--color-primary); /* Fondo principal */
+  color: var(--color-light); /* Texto principal */
+}
+
+.ant-layout-header {
+  background: var(--color-primary);
+  box-shadow: none;
+}
+
+/* Estilos para el menú del navbar */
+.ant-menu-horizontal {
+  background: var(--color-primary);
+  border-bottom: none;
+}
+
+.ant-menu-item {
+  color: var(--color-light); /* Color del texto del menú */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+.ant-menu-item:hover,
+.ant-menu-item-active {
+  background-color: var(--color-accent); /* Fondo al pasar el mouse */
+  color: var(--color-light); /* Texto al pasar el mouse */
+}
+
+/* Fondo del ítem seleccionado */
+.ant-menu-item-selected {
+  background-color: var(--color-accent) !important; /* Fondo del ítem seleccionado */
+  color: var(--color-light); /* Texto del ítem seleccionado */
+  font-weight: bold; /* Opcional: resaltar el texto */
+}
+
+/* Efecto hover para botones primarios */
+.ant-btn-primary:hover {
+  background-color: rgba(200, 172, 214, 0.9);
+  color: var(--color-primary);
+  border-color: rgba(200, 172, 214, 0.9);
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
