@@ -1,6 +1,6 @@
 {
   "name": "landing-portfolio",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "homepage": "https://fernandaavello.github.io/landing-portfolio",
   "type": "module",
