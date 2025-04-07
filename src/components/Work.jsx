@@ -8,7 +8,7 @@ const projects = [
     title: "Clínica de Salud de la Mujer App",
     description:
       "Una aplicación web que simula una clínica de salud para la atención de las mujeres.",
-      image: "./../public/images/clinical.png",
+      image: "./images/clinical.png",
     tags: ["React", "Ant Design", "CSS", "Vite","React Router DOM", "indexedDB", "Service Worker"],
     github: "https://github.com",
     preview: "https://github.com",
@@ -17,7 +17,7 @@ const projects = [
     title: "Gamer's Opinion App",
     description:
       "Una aplicación web para compartir opiniones sobre videojuegos.",
-    image: "./../public/images/Gamer.png",
+    image: "./images/Gamer.png",
     tags: ["Vue", "Vuetify", "SASS", "Vuex", "Vue-Router", "API REST"],
     github: "https://github.com/FernandaAvello/GAMES-OPINION",
     preview: "https://fernandaavello.github.io/GAMES_OPINION_PROD/#/",
@@ -25,7 +25,7 @@ const projects = [
   {
     title: "Coding App",
     description: "Plataforma para comprar cursos de programación web.",
-    image: "./../public/images/coding.png",
+    image: "./images/coding.png",
     tags: ["Vue", "Vuetify", "SASS", "Vuex", "Vue-Router"],
     github: "https://github.com/FernandaAvello/CODING",
     preview: "https://fernandaavello.github.io/CODING_PROD/#/",

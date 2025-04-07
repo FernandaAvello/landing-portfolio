@@ -40,7 +40,7 @@ const Education = () => {
             Speaking and Writing Test
           </Title>
           <p style={{ color: "var(--color-light)" }}>TOEIC - ETS</p>
-          <a href="./../public/files/toeic.pdf" style={{ color: "var(--color-accent)" }} download>Descargar Certificación</a>
+          <a href="./files/toeic.pdf" style={{ color: "var(--color-accent)" }} download>Descargar Certificación</a>
         </Timeline.Item>
         <Timeline.Item
           label="MAR 2023 - AGO 2023"
@@ -51,7 +51,7 @@ const Education = () => {
           </Title>
           <p style={{ color: "var(--color-light)" }}>OTEC Eductecno - Programa de Becas de Talento Digital</p>
           <a href="https://www.acreditta.com/credential/f571016a-a864-46b3-8ed6-90a470c3fa14?utm_source=linkedin_profile&resource_type=badge&resource=f571016a-a864-46b3-8ed6-90a470c3fa14" target="_blank" style={{ color: "var(--color-accent)" }} >Insignia Digital</a>
-          <a href="./../public/files/bootcamp.pdf" style={{ color: "var(--color-accent)", marginLeft: "30px" }} download>Descargar Certificación</a>
+          <a href="./files/bootcamp.pdf" style={{ color: "var(--color-accent)", marginLeft: "30px" }} download>Descargar Certificación</a>
         </Timeline.Item>
         <Timeline.Item
           label="AGO 2023"
@@ -61,7 +61,7 @@ const Education = () => {
             English for Developers Course
           </Title>
           <p style={{ color: "var(--color-light)" }}>E-camp - Edutecno</p>
-          <a href="./../public/files/english.png" style={{ color: "var(--color-accent)", marginLeft: "30px" }} download>Descargar Certificación</a>
+          <a href="./files/english.png" style={{ color: "var(--color-accent)", marginLeft: "30px" }} download>Descargar Certificación</a>
         </Timeline.Item>
         <Timeline.Item
           label="DIC 2022"
@@ -71,7 +71,7 @@ const Education = () => {
             Curso de gestión ágil de proyectos con SCRUM
           </Title>
           <p style={{ color: "var(--color-light)" }}>Plataforma de Formación Online Udemy</p>
-          <a href="./../public/files/scrum.jpg" style={{ color: "var(--color-accent)" }} download>Descargar Certificación</a>
+          <a href="./files/scrum.jpg" style={{ color: "var(--color-accent)" }} download>Descargar Certificación</a>
         </Timeline.Item>
         <Timeline.Item
           label="FEB 2023 - ABR 2023"
@@ -81,7 +81,7 @@ const Education = () => {
             Curso de Diseño Web y JavaScript
           </Title>
           <p style={{ color: "var(--color-light)" }}>Instituto AIEP</p>
-          <a href="./../public/files/aiep.pdf" style={{ color: "var(--color-accent)" }} download>Descargar Certificación</a>
+          <a href="./files/aiep.pdf" style={{ color: "var(--color-accent)" }} download>Descargar Certificación</a>
         </Timeline.Item>
       </Timeline>
     </div>

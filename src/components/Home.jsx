@@ -52,7 +52,7 @@ const Home = () => {
                 borderRadius: "8px",
                 transition: "all 0.3s ease",
               }}
-              href="./../public/files/CV_Fernanda_Avello.pdf" // Cambia la ruta al archivo de tu CV
+              href="./files/CV_Fernanda_Avello.pdf" // Cambia la ruta al archivo de tu CV
               target="_blank"
               rel="noopener noreferrer"
               download
