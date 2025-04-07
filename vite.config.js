@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: 'https://fernandaavello.github.io/landing-portfolio',
+  base: '/landing-portfolio',
   server: {
     port: 3000, // Cambia el puerto si es necesario
   },
