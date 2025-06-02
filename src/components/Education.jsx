@@ -21,7 +21,7 @@ const Education = () => {
             Especialización en Desarrollo Frontend con React - 132 horas
           </Title>
           <p style={{ color: "var(--color-light)" }}>Aspacia Chile - Programa de especialización Laboral en Tecnologías de la Información 2024 Beca CORFO</p>
-          <a href="./files/CertReact.pdf" style={{ color: "var(--color-light)" }} download>Descargar Certificación</a>
+          <a href="./files/CertReact.pdf" style={{ color: "var(--color-accent)" }} download>Descargar Certificación</a>
         </Timeline.Item>
         <Timeline.Item
           label="MAY 2024 - SEP 2024"
