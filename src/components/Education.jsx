@@ -18,10 +18,10 @@ const Education = () => {
           style={{ color: "var(--color-light)" }}
         >
           <Title level={4} style={{ color: "var(--color-light)" }}>
-            Especialización en Desarrollo Frontend con React
+            Especialización en Desarrollo Frontend con React - 132 horas
           </Title>
           <p style={{ color: "var(--color-light)" }}>Aspacia Chile - Programa de especialización Laboral en Tecnologías de la Información 2024 Beca CORFO</p>
-          {/* <a href="/certifications/frontend-react.pdf" style={{ color: "var(--color-light)" }} download>Descargar Certificación</a> */}
+          <a href="./files/CertReact.pdf" style={{ color: "var(--color-light)" }} download>Descargar Certificación</a>
         </Timeline.Item>
         <Timeline.Item
           label="MAY 2024 - SEP 2024"
@@ -47,7 +47,7 @@ const Education = () => {
           style={{ color: "var(--color-light)" }}
         >
           <Title level={4} style={{ color: "var(--color-light)" }}>
-            Bootcamp de Desarrollo de Aplicaciones Web con VueJS
+            Bootcamp de Desarrollo de Aplicaciones Web con VueJS - 438 horas
           </Title>
           <p style={{ color: "var(--color-light)" }}>OTEC Eductecno - Programa de Becas de Talento Digital</p>
           <a href="https://www.acreditta.com/credential/f571016a-a864-46b3-8ed6-90a470c3fa14?utm_source=linkedin_profile&resource_type=badge&resource=f571016a-a864-46b3-8ed6-90a470c3fa14" target="_blank" style={{ color: "var(--color-accent)" }} >Insignia Digital</a>
